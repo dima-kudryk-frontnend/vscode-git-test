@@ -2,7 +2,8 @@
     color: green;
 }
 
-ul {
+ul,
+ol {
     background-color: yellow;
 }
 
@@ -27,5 +28,5 @@ li.topic.new {
 }
 
 .new.posted-today {
-    border: 1px solid pink;
+    background-color: pink;
 }
