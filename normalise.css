@@ -1,11 +1,10 @@
-.main {
-    font-size: 24px;
+div {
+    display: inline-block;
 }
 
-.paragraf {
-    color: green;
-}
-
-.orange {
-    color: orange;
+span {
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    display: block;
 }
