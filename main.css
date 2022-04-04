@@ -11,5 +11,5 @@ a[href][target] {
 }
 
 input[type='text'] {
-    border-color: orange;
+    background-color: orange;
 }
