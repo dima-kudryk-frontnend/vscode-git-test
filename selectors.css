@@ -7,6 +7,10 @@ img[src$=".jpg"] {
 }
 
 [data-description~="even"] {
+    background-color: gray;
+}
+
+[data-description*="even"] {
     font-size: 24px;
 }
 
