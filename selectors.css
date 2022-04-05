@@ -1,25 +1,35 @@
-.already-learned ol {
-    background-color: green;
+a:visited {
+    color: green;
+    background-color: orange;
+}
+
+a:link {
+    color: white;
+    background-color: black;
+}
+
+a:active,
+button:active {
+    border: 3px solid red;
+}
+
+a:hover {
+    font-size: 24px;
+}
+
+button:disabled {
+    border: 2px dashed grey;
+}
+
+button:hover:enabled {
+    background-color: grey;
     color: white;
 }
 
-#special1+li code {
-    border: 2px solid blue;
-}
-
-.to-be-learned ol {
-    background-color: orange;
-    color: green;
-}
-
-li code {
-    background-color: green;
-}
-
-.already-learned code {
+.search:focus {
     background-color: orange;
 }
 
-#special2~li {
-    font-size: 24px;
+.confirm-checkbox:checked {
+    margin-left: 20px;
 }
