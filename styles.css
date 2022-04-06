@@ -42,8 +42,7 @@ div:nth-child(3)>p:nth-child(2) {
     border: 5px solid white;
 }
 
-div:nth-child(3) {
-    font-style: italic;
+em {
     font-size: 20px;
     color: white;
 }
