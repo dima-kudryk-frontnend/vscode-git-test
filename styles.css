@@ -1,6 +1,5 @@
 .div {
-    width: 400px;
-    height: 150px;
+    width: 100%;
     border: 3px solid black;
     padding: 50px;
     background-color: aqua;
