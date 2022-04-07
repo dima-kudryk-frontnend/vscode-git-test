@@ -1,16 +1,7 @@
-.new {
-    width: 420px;
-    height: 140px;
-    font-size: 24px;
-    background-color: bisque;
-    padding: 20px;
-    margin: 50px 100px;
-    border-top: 10px;
-    border-top-color: firebrick;
-    border-top-style: solid;
-    border-bottom: 10px;
-    border-bottom-color: burlywood;
-    border-bottom-style: dashed;
-    border-right: 20px solid chartreuse;
-    border-left: 20px dashed aqua;
+.div {
+    width: 400px;
+    height: 150px;
+    border: 3px solid black;
+    padding: 50px;
+    background-color: aqua;
 }
