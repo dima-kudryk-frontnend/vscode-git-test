@@ -47,13 +47,13 @@ div {
 
 .relative-parent {
     position: relative;
-    right: 50px;
+    left: 50px;
     bottom: 20px;
 }
 
 .absolute-parent {
     position: absolute;
-    right: 50px;
+    left: 50px;
     bottom: 20px;
 }
 
