@@ -1,26 +1,22 @@
-* {
-    box-sizing: border-box;
-}
-
 .div {
     height: 400px;
     background-color: blue;
     border: 2px solid black;
     margin: 50px;
-    padding: 50px;
 }
 
 .next1 {
     border: 2px solid black;
     height: 300px;
     background-color: yellow;
-    padding: 50px;
+    margin: 50px;
 }
 
 .next2 {
     height: 200px;
     background-color: green;
     border: 2px solid black;
+    margin: 50px;
 }
 
 .next3 {
