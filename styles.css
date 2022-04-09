@@ -11,6 +11,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 
 header>nav {
@@ -30,6 +31,7 @@ header>nav {
 
 main {
     height: 5000px;
+    background-color: beige;
 }
 
 .head {
