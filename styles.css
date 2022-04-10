@@ -4,34 +4,15 @@
     padding: 0;
 }
 
-body {
+header {
     display: flex;
+    justify-content: center;
 }
 
-.block {
-    height: 300px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.block_red {
-    background-color: red;
-}
-
-.block_green {
-    background-color: green;
-}
-
-.block_blue {
-    background-color: blue;
-}
-
-.block_yellow {
-    background-color: yellow;
-}
-
-.block_black {
-    background-color: black;
+.article {
+    margin: 8px;
+    padding: 16px;
+    background-color: bisque;
+    display: block;
+    min-width: 300px;
 }
