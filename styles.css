@@ -2,20 +2,27 @@
     box-sizing: border-box;
 }
 
-header {
-    text-align: center;
+.articles>div {
+    width: 150px;
+    height: 100px;
+    margin: 16px;
+    background-color: beige;
 }
 
-.article {
-    margin: 8px;
-    padding: 16px;
-    background-color: bisque;
-    flex-basis: 300px;
-    flex-grow: 1;
-    flex-shrink: 0;
-}
-
-.articles-list {
+.articles {
     display: flex;
-    flex-wrap: wrap;
+}
+
+.cropped {
+    overflow: hidden;
+}
+
+.both-scrolls {
+    overflow: auto;
+    cursor: all-scroll;
+}
+
+.vertical-scroll {
+    overflow: scroll;
+    cursor: all-scroll;
 }
