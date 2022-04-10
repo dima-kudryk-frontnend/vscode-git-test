@@ -5,8 +5,7 @@
 }
 
 header {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .article {
@@ -21,7 +20,6 @@ header {
 .articles-list {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 
 h2 {
