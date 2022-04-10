@@ -13,6 +13,12 @@ header {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    display: block;
-    min-width: 300px;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
