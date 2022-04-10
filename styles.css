@@ -22,3 +22,8 @@ header {
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+h2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
