@@ -5,36 +5,39 @@
     <meta charset="UTF-8" />
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
-    <style>
-        div.block {
-            background-color: coral;
-            margin: 8px;
-            height: 100px;
-            display: flex;
-            width: 100px;
-            flex-grow: 1;
-        }
-        
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="block">1</div>
-        <div class="block">2</div>
-        <div class="block">3</div>
-        <div class="block">4</div>
-        <div class="block">5</div>
-        <div class="block">6</div>
-        <div class="block">7</div>
-        <div class="block">8</div>
-        <div class="block">9</div>
-        <div class="block">10</div>
-        <div class="block">11</div>
+        <header class="header">
+            <nav>
+                <ul class="navigation">
+                    <li class="list_item">About</li>
+                    <li class="list_item">Product</li>
+                    <li class="list_item">Contacts</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section>
+                <h2>I can use Flexbox!!!</h2>
+            </section>
+            <aside class="aside">
+                <h2 class="news">News</h2>
+                <ul class="ul_news">
+                    <li class="li-news">News 1</li>
+                    <li class="li-news">News 2</li>
+                    <li class="li-news">News 3</li>
+                    <li class="li-news">News 4</li>
+                </ul>
+            </aside>
+        </main>
+        <footer class="footer">
+            <span class="footer_text">Footer</span>
+        </footer>
+
+
     </div>
 </body>
 
