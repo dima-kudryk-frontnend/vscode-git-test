@@ -10,15 +10,15 @@
     background-color: darkgreen;
     color: white;
     display: inline-block;
-    padding: 8px;
-    height: 34px;
+    padding: 16px;
     cursor: pointer;
     opacity: 0.8;
+    text-align: center;
 }
 
 .menu-list {
     position: absolute;
-    top: 34px;
+    top: 50px;
     left: 0;
     list-style-type: none;
     background-color: lightcyan;
@@ -31,6 +31,7 @@
 
 .menu-item {
     padding: 8px;
+    line-height: 35px;
 }
 
 .dropdown:hover .menu-list {
