@@ -37,7 +37,6 @@
 .dropdown:hover .menu-list {
     display: block;
     background-color: ghostwhite;
-    opacity: 1;
 }
 
 .dropdown:hover {
