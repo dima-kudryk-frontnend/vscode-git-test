@@ -4,26 +4,13 @@
     box-sizing: border-box;
 }
 
-.text {
-    margin: 16px;
-    display: inline-block;
-    flex-direction: column;
-    border-bottom: 1px dotted black;
-    position: relative;
+img {
+    margin: 8px;
 }
 
-.tooltip {
-    background-color: gray;
-    color: white;
-    border-radius: 4px;
-    padding: 8px;
-    position: absolute;
-    top: 24px;
-    left: 0px;
-    display: none;
-}
-
-div:hover>span {
-    display: block;
-    cursor: pointer;
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    cursor: all-scroll;
 }
