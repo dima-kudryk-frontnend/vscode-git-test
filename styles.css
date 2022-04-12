@@ -12,5 +12,5 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    cursor: all-scroll;
+    overflow-x: auto;
 }
