@@ -1,4 +1,11 @@
-.dropdown {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .dropdown {
     padding: 16px;
     margin: 16px;
     background-color: darkgreen;
@@ -36,4 +43,27 @@
 
 .dropdown:hover .menu-list {
     display: block;
+} */
+
+.text {
+    margin: 16px;
+    display: inline-block;
+    flex-direction: column;
+    border-bottom: 1px dotted black;
+    position: relative;
+}
+
+.tooltip {
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    position: absolute;
+    top: 24px;
+    left: 0px;
+}
+
+div:hover>span {
+    top: 64px;
+    cursor: pointer;
 }
