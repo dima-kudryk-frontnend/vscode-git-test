@@ -1,34 +1,22 @@
 html {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section {
-    margin: 32px;
-}
-
-h1 {
-    word-spacing: 20px;
+header>h1 {
+    margin: auto;
+    font-size: 74px;
+    width: 50%;
     text-align: center;
-    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
-p {
-    line-height: 28px;
-}
-
-.technolog {
-    font-weight: 900;
-    letter-spacing: 3px;
-    opacity: 0.8;
-    text-decoration: underline;
-    font-size: 24px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.translate {
-    color: gray;
+div {
+    height: 200px;
+    background-color: coral;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 200px;
 }
