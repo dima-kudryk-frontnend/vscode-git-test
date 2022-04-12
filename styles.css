@@ -4,13 +4,36 @@
     box-sizing: border-box;
 }
 
-img {
-    margin: 8px;
+html {
+    font-family: 'Roboto', sans-serif;
 }
 
-.gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    overflow-x: auto;
+section {
+    margin: 32px;
+}
+
+h1 {
+    word-spacing: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p {
+    line-height: 28px;
+}
+
+.technolog {
+    font-weight: 900;
+    letter-spacing: 3px;
+    opacity: 0.8;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.translate {
+    color: gray;
 }
