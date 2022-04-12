@@ -64,6 +64,6 @@
 }
 
 div:hover>span {
-    top: 64px;
+    top: -50px;
     cursor: pointer;
 }
