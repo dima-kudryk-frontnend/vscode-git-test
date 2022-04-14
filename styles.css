@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg');
+.image {
+    height: 200px;
+    width: 200px;
+    margin: 16px;
+    border: 1px dotted grey;
+}
+
+.image:nth-child(1) {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image:nth-child(2) {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image:nth-child(3) {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.gallery {
+    display: flex;
 }
