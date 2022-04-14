@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-.video {
+iframe {
     width: 500px;
-    margin: 200px auto;
+    height: 400px;
+    margin: 100px auto;
     display: block;
 }
