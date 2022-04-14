@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
+header {
+    padding: 16px;
+}
+
 .header-text {
-    margin: 16px;
     text-align: center;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
