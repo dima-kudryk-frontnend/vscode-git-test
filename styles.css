@@ -4,31 +4,13 @@
     box-sizing: border-box;
 }
 
-.image {
-    height: 200px;
-    width: 200px;
-    margin: 16px;
-    border: 1px dotted grey;
+html {
+    font-size: 18px;
 }
 
-.image:nth-child(1) {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image:nth-child(2) {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.image:nth-child(3) {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.gallery {
-    display: flex;
+.properties-list__item {
+    color: #f39;
+    font-size: 24px;
+    line-height: 32px;
+    list-style-type: none;
 }
