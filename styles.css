@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
+.image-container {
+    position: relative;
+}
+
 .image {
     margin: 0 auto;
     display: block;
     max-width: 100%;
-    min-width: auto;
-    height: auto;
-    position: relative;
+    /* position: relative; */
 }
 
 .image-button {
@@ -22,9 +24,8 @@
     font-weight: 700;
     opacity: 0.5;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: calc(50% - 25px);
+    left: calc(50% - 100px);
     display: flex;
     justify-content: center;
     align-items: center;
