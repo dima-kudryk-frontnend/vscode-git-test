@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 
-form {
+form.pages {
     margin: 32px;
 }
 
-div {
+.form-control {
     margin: 8px;
 }
