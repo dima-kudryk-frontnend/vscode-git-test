@@ -8,4 +8,5 @@
 
 .form-control {
     margin: 8px;
+    box-sizing: border-box;
 }
