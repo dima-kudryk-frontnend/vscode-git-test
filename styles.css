@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -8,5 +8,17 @@
 
 .form-control {
     margin: 8px;
+  
+}* { */
+
+* {
     box-sizing: border-box;
+}
+
+form {
+    margin: 32px;
+}
+
+div {
+    margin: 8px;
 }
