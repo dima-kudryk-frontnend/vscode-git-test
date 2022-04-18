@@ -1,12 +1,23 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-form.pages {
-    margin: 32px;
+table {
+    width: 500px;
+    margin: 16px;
 }
 
-.form-control {
-    margin: 8px;
-    box-sizing: border-box;
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 4px;
+    text-align: right;
 }
