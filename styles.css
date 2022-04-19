@@ -1,25 +1,26 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-table {
-    border-collapse: collapse;
-    margin: 16px;
-    border: 1px solid black;
+.small-bird {
+    width: 64px;
+    height: 64px;
 }
 
-td {
-    border: 1px solid black;
-    height: 50px;
-    width: 50px;
-    text-align: center;
+.large-bird {
+    width: 320px;
+    height: 320px;
 }
 
-.black {
-    background-color: black;
+.row {
+    display: flex;
 }
 
-.num,
-.imp>td {
-    border: none!important;
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
 }
