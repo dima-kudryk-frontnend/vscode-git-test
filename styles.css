@@ -2,34 +2,28 @@
     box-sizing: border-box;
 }
 
-.custom {
-    width: 200px;
-    height: 50px;
-    align-items: center;
-    line-height: 50px;
-    background-color: coral;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
-    border: 0;
-    cursor: pointer;
-    font-weight: 700;
-    color: white;
-    margin: 64px;
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
-.custom:hover {
-    color: darkcyan;
+.fa-battery-full {
+    font-size: 16px;
 }
 
-.custom:hover>.bird {
-    fill: green;
+.fa-battery-three-quarters {
+    font-size: 32px;
 }
 
-.bird {
-    width: 32px;
-    height: 32px;
-    fill: white;
-    vertical-align: middle;
-    color: white;
+.fa-battery-half {
+    font-size: 64px;
+}
+
+.fa-battery-quarter {
+    font-size: 128px;
+}
+
+.fa-battery-empty {
+    font-size: 256px;
 }
