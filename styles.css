@@ -23,7 +23,7 @@
 }
 
 .custom:hover>.bird {
-    fill: red;
+    fill: green;
 }
 
 .bird {
