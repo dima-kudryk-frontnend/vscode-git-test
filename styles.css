@@ -1,26 +1,35 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
-.small-bird {
-    width: 64px;
-    height: 64px;
-}
-
-.large-bird {
-    width: 320px;
-    height: 320px;
-}
-
-.row {
-    display: flex;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
+.custom {
+    width: 200px;
+    height: 50px;
     align-items: center;
-    flex-grow: 1;
+    line-height: 50px;
+    background-color: coral;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    margin: 64px;
+}
+
+.custom:hover {
+    color: darkcyan;
+}
+
+.custom:hover>.bird {
+    fill: red;
+}
+
+.bird {
+    width: 32px;
+    height: 32px;
+    fill: white;
+    vertical-align: middle;
+    color: white;
 }
