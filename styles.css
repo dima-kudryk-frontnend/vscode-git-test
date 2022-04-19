@@ -28,8 +28,8 @@
     height: 4px;
     border-radius: 2px;
     background-color: black;
-    animation: moving 2s;
+    animation: moving 2s, blinking 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation: blinking 2s;
+    animation-timing-function: linear;
 }
