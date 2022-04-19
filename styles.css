@@ -2,37 +2,32 @@
     box-sizing: border-box;
 }
 
-.square {
-    width: 100px;
-    height: 100px;
-    background-color: coral;
-    position: absolute;
-    animation: movie 4s;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-@keyframes movie {
-    0% {
-        left: 0;
-    }
-    25% {
-        left: 300px;
-        top: 0;
-        background-color: cornflowerblue;
-    }
-    50% {
-        left: 300px;
-        top: 300px;
-        background-color: aqua;
-    }
-    75% {
-        left: 0;
-        top: 300px;
-        background-color: yellowgreen;
-    }
-    100% {
-        left: 0;
-        top: 0;
-    }
+.spinner {
+    position: relative;
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    animation-name: blinking;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.rect {
+    position: absolute;
+    color: black;
+    width: 10px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: black;
+    animation: moving 2s, blinking 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
