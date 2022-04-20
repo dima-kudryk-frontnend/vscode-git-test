@@ -1,38 +1,23 @@
-* {
-    box-sizing: border-box;
+html {
+    font-size: 18px;
 }
 
-.gallery {
-    display: flex;
-    align-items: center;
-    width: 80%;
-    background-color: #fa5;
+.font-in-px {
+    font-size: 27px;
 }
 
-.ideas {
-    display: flex;
-    background-color: #5af;
-    width: 20%;
+.font-in-em {
+    font-size: 1.5em;
 }
 
-.image {
-    max-width: 100%;
-    margin: auto;
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+.font-in-vw {
+    font-size: 5vw;
 }
 
-.content {
-    display: flex;
-    min-height: 100vh;
+.font-in-percents {
+    font-size: 150%;
 }
 
-.idea {
-    color: white;
-    font-weight: 700;
-    padding: 4px;
-    text-transform: uppercase;
-    margin: auto;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+.font-in-rem {
+    font-size: 1.5rem;
 }
