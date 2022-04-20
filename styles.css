@@ -23,7 +23,7 @@ body {
     animation: movie 2s;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 
 @keyframes movie {
