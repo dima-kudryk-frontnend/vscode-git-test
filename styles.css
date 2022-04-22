@@ -12,19 +12,20 @@ html {
 header {
     font-size: 3em;
     padding: 0 1em;
-    border-color: #eee;
+    background-color: #eee;
     display: flex;
 }
 
 .fa-solid {
     font-size: 2em;
+}
+
+.header-menu {
     padding: 0;
     margin: 0;
     outline: none;
     border: none;
     cursor: pointer;
-    display: table-cell;
-    vertical-align: middle
 }
 
 ul,
@@ -37,6 +38,7 @@ li {
 .navigation {
     width: 20%;
     padding: 0.5em;
+    margin-top: 16px;
 }
 
 li {
