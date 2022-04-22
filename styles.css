@@ -10,7 +10,7 @@ html {
 }
 
 header {
-    font-size: 3em;
+    height: 3em;
     padding: 0 1em;
     background-color: #eee;
     display: flex;
