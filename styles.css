@@ -1,54 +1,20 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+img {
+    display: none;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-.navigation {
-    background-color: #ff7f50;
-}
-
-.product_List {
-    background-color: #006400;
-}
-
-.news {
-    background-color: #0ff;
-}
-
-span {
-    text-transform: lowercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #faebd7;
-    padding: 8px;
-    border-radius: 4px;
-}
-
-.block {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
-
-@media screen and (min-width: 600px) and (max-width: 899px) {
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .block {
-        min-width: 50%;
+@media screen and (max-width: 400px) {
+    .small {
+        display: block;
     }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1200px) {
-    .container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
+@media screen and (min-width: 400px) {
+    .big {
+        display: block;
     }
-    .block {
-        flex-basis: 0;
-    }
+}
+
+
 }
