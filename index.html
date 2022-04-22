@@ -7,15 +7,26 @@
     <title>Media Queries</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
     <link rel="stylesheet" href="./styles.css">
-
+    <style>
+        main {
+            display: flex;
+        }
+        
+        picture {
+            max-width: 100%;
+            margin: auto;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="block navigation"> <span>Navigation</span> </div>
-        <div class="block product_List"> <span>Products List</span></div>
-        <div class="block news"> <span>News</span></div>
-    </div>
+    <main>
+        <picture>
+            <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg" media="(min-width: 400px)">
+            <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg">
+            <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg" alt="thre">
+        </picture>
+    </main>
 </body>
 
 </html>
