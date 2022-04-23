@@ -1,68 +1,51 @@
-header {
-  height: 3em;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.block {
+  text-transform: lowercase;
+  font-family: Verdana;
+  display: flex;
+  min-height: 200px;
+  flex: 1;
+}
+
+.text {
+  margin: auto;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+}
+
+.navigation {
+  background-color: #ff7f50;
+}
+
+.prodList {
   background-color: #006400;
 }
 
-nav {
-  display: flex;
-  min-height: 3em;
+.news {
+  background-color: #0ff;
 }
 
-.menu {
+.container {
   display: flex;
-  text-transform: uppercase;
-  list-style-type: none;
-  vertical-align: middle;
-  margin: 0;
-  padding: 0;
-  margin-left: 3em;
-  color: #fff;
-}
-.menu__item {
-  min-height: 100%;
-  display: flex;
-  align-items: center;
-  padding: 0 8px;
-}
-.menu__item:hover {
-  background-color: #9acd32;
-  cursor: pointer;
-}
-.menu__item:hover > .submenu {
-  cursor: pointer;
-  display: flex;
-}
-.menu__item_active {
-  color: yellow;
-  position: relative;
-}
-
-.submenu {
-  display: none;
   flex-direction: column;
-  position: absolute;
-  top: 3em;
-  background-color: #ff7f50;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  color: #fff;
-  min-width: 120px;
 }
-.submenu__item {
-  padding: 16px 8px;
-  list-style-type: none;
-}
-.submenu__item:hover {
-  color: black;
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+@media screen and (min-width: 600px) {
+  .block {
+    flex-basis: 320px;
+  }
 }/*# sourceMappingURL=index.css.map */
